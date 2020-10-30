@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.background {
+    border-radius: 107px;
+	z-index: -2;
+   
+}
+.bg-wrap {
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+
+}
+
+#loginarea {
+  /*    text-align: center;*/
+  z-index: 1;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%,0);
+  background: rgba(255, 255, 255,0.35);
+  float: right;
+  text-align: center;
+  height: 288px;
+  width: 567px;
+  padding-top: 47px;
+  padding-right: 47px;
+  padding-bottom: 47px;
+  padding-left: 47px;
+  z-index: 2;
+}
+/*#white-border {
+  background-color: white;
+  height: 400px;
+  width: 600px;
+  opacity: 0.35;
+  margin-left: -241px;
+  margin-top: -90px;
+  border-radius: 20px;
+  z-index: 0;
+  visibility: visible;
+}*/
+
+/*
+
+#texts-area {
+  position: absolute;
+  padding-top: 0px;
+  z-index: 3;
+  top: 155px;
+  left: 0%;
+}
+*/
+
+.newer {
+  margin-top: 50px;
+  padding-left: 19px;
+  margin-right: 17px;
+}
